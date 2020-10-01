@@ -19,4 +19,4 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         format: html
-        message: The ${{ github.event_name }} event <b>${{ github.event.head_commit.message }}</b> has been triggered by <a href="https://github.com/${{ github.actor }}"><u>${{ github.actor }}</u></a>
+        message: The ${{ github.event_name }} event <b>${{ github.event.head_commit.message }}</b> has been triggered by <a href="https://github.com/Mynameisanalias/FintechSG/actions"><u>${{ github.actor }}</u></a>
