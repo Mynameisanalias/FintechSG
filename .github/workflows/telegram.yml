@@ -18,5 +18,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: notification.png
-              The ${{ github.event_name }} event has been triggered.
+        args: The ${{ github.event_name }} event has been triggered.
